@@ -1,0 +1,96 @@
+2024-02-16 10:08:55,297 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+2024-02-16 10:08:55,653 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\tyavi\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-16 10:09:06,647 INFO h.Logger [main] Открытие Chrome
+2024-02-16 10:09:07,063 INFO h.Logger [main] Открытие сайта
+2024-02-16 10:09:21,674 INFO h.Logger [main] Открытие окна для ввода логин/пароль
+2024-02-16 10:09:22,107 INFO h.Logger [main] Вход в личный кабинет
+2024-02-16 10:09:27,537 INFO h.Logger [main] Закрытие драйвера
+2024-02-16 10:24:58,027 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+2024-02-16 10:24:58,114 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\tyavi\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-16 10:25:11,695 INFO h.Logger [main] Открытие Chrome
+2024-02-16 10:25:11,955 INFO h.Logger [main] Открытие сайта
+2024-02-16 10:25:16,753 INFO h.Logger [main] Открытие окна для ввода логин/пароль
+2024-02-16 10:25:21,662 INFO h.Logger [main] Вход в личный кабинет
+2024-02-16 10:25:22,768 WARN o.a.n.h.WebSocketHandler [AsyncHttpClient-1-4] onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+2024-02-16 10:25:24,030 INFO h.Logger [main] Закрытие драйвера
+2024-02-16 12:07:53,081 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+2024-02-16 12:07:53,162 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\tyavi\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-16 12:08:04,656 INFO h.Logger [main] Открытие Chrome
+2024-02-16 12:08:04,783 INFO h.Logger [main] Открытие сайта
+2024-02-16 12:08:05,354 INFO h.Logger [main] Открытие окна для ввода логин/пароль
+2024-02-16 12:08:13,112 INFO h.Logger [main] Вход в личный кабинет
+2024-02-16 12:08:15,032 INFO h.Logger [main] Авторизация на сайте
+2024-02-16 12:08:15,035 INFO h.Logger [main] Переходим в раздел О себе
+2024-02-16 12:08:27,136 INFO h.Logger [main] Вход в Мой Профиль
+2024-02-16 12:08:27,138 INFO h.Logger [main] Заполняем профиль данными студента
+2024-02-16 12:08:43,829 INFO h.Logger [main] Добавление пользовательских данных
+2024-02-16 12:08:57,309 INFO h.Logger [main] Добавление основной информации
+2024-02-16 12:08:58,641 INFO h.Logger [main] Добавление другой информации
+2024-02-16 12:09:10,029 INFO h.Logger [main] Добавление информации об опыте разработки
+2024-02-16 12:09:16,954 INFO h.Logger [main] Сохранение страницы
+2024-02-16 12:09:19,403 INFO h.Logger [main] Закрытие драйвера
+2024-02-16 12:09:22,417 INFO h.Logger [main] Открытие Chrome
+2024-02-16 12:09:22,421 INFO h.Logger [main] Открытие сайта
+2024-02-16 12:09:30,735 INFO h.Logger [main] Открытие окна для ввода логин/пароль
+2024-02-16 12:09:31,261 INFO h.Logger [main] Вход в личный кабинет
+2024-02-16 12:09:32,764 INFO h.Logger [main] Авторизация на сайте
+2024-02-16 12:09:32,765 INFO h.Logger [main] Переходим в раздел О себе
+2024-02-16 12:09:45,071 INFO h.Logger [main] Вход в Мой Профиль
+2024-02-16 12:09:45,076 INFO h.Logger [main] Осуществляем проверку введенных данных
+2024-02-16 12:09:47,972 INFO h.Logger [main] Закрытие драйвера
+2024-02-16 12:38:16,301 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+2024-02-16 12:38:16,411 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\tyavi\.cache\selenium\chromedriver\win64\121.0.6167.85\chromedriver.exe
+2024-02-16 12:38:23,938 INFO h.Logger [main] Открытие Chrome
+2024-02-16 12:38:24,098 INFO h.Logger [main] Открытие сайта
+2024-02-16 12:38:24,964 INFO h.Logger [main] Открытие окна для ввода логин/пароль
+2024-02-16 12:38:30,556 INFO h.Logger [main] Вход в личный кабинет
+2024-02-16 12:38:32,784 INFO h.Logger [main] Авторизация на сайте
+2024-02-16 12:38:32,786 INFO h.Logger [main] Переходим в раздел О себе
+2024-02-16 12:38:40,541 INFO h.Logger [main] Вход в Мой Профиль
+2024-02-16 12:38:40,543 INFO h.Logger [main] Заполняем профиль данными студента
+2024-02-16 12:38:54,380 INFO h.Logger [main] Добавление пользовательских данных
+2024-02-16 12:39:06,115 INFO h.Logger [main] Добавление основной информации
+2024-02-16 12:39:07,071 INFO h.Logger [main] Добавление другой информации
+2024-02-16 12:39:15,271 INFO h.Logger [main] Добавление информации об опыте разработки
+2024-02-16 12:39:19,450 INFO h.Logger [main] Сохранение страницы
+2024-02-16 12:39:19,671 WARN o.a.n.h.WebSocketHandler [AsyncHttpClient-1-4] onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+2024-02-16 12:39:20,585 INFO h.Logger [main] Закрытие драйвера
+2024-02-16 12:39:23,292 INFO h.Logger [main] Открытие Chrome
+2024-02-16 12:39:23,298 INFO h.Logger [main] Открытие сайта
+2024-02-16 12:39:26,321 INFO h.Logger [main] Открытие окна для ввода логин/пароль
+2024-02-16 12:39:28,291 INFO h.Logger [main] Вход в личный кабинет
+2024-02-16 12:39:30,229 INFO h.Logger [main] Авторизация на сайте
+2024-02-16 12:39:30,230 INFO h.Logger [main] Переходим в раздел О себе
+2024-02-16 12:39:39,970 INFO h.Logger [main] Вход в Мой Профиль
+2024-02-16 12:39:39,973 INFO h.Logger [main] Осуществляем проверку введенных данных
+2024-02-16 12:39:41,430 INFO h.Logger [main] Закрытие драйвера
